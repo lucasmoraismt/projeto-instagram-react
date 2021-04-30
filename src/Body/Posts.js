@@ -14,7 +14,7 @@ export default function Posts() {
       img: "img/dog",
       alt: "dog",
       liked: "respondeai",
-      number: "101.523",
+      number: "99.682",
     },
   ];
 
