@@ -2,13 +2,6 @@
     <a href="#">Projeto Instagram(React)</a>
 </h1>
 
-<p align="center">  
-   <img alt="License" src="https://img.shields.io/github/license/lucasmoraismt/projeto-batepapouol">
-   <a href="https://github.com/">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/lucasmoraismt/projeto-batepapouol">
-  </a>
-</p>
-
 <h4 align="center"> 
 	 Status: Delivered
 </h4>
