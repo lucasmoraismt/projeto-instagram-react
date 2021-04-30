@@ -7,7 +7,7 @@ export default function Post(props) {
       <Author nick={props.nick} />
 
       <div class="conteudo">
-        <img src={`assets/${props.img}.svg`} />
+        <img src={`assets/${props.img}.svg`} alt={props.alt} />
       </div>
 
       <Liked liked={props.liked} number={props.number} />

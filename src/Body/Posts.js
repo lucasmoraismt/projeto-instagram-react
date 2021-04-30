@@ -5,12 +5,14 @@ export default function Posts() {
     {
       nick: "meowed",
       img: "img/gato-telefone",
-      liked: "respondeai",
+      alt: "gato telefone",
+      liked: "adorable_animals",
       number: "101.523",
     },
     {
       nick: "barked",
       img: "img/dog",
+      alt: "dog",
       liked: "respondeai",
       number: "101.523",
     }//,

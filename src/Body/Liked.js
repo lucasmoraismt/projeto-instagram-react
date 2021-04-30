@@ -13,9 +13,9 @@ export default function Liked(props) {
       </div>
 
       <div class="curtidas">
-        <img src={`assets/img/${props.liked}.svg`} />
+        <img src={`assets/img/${props.liked}.svg`} alt={props.liked} />
         <div class="texto">
-          Curtido por <strong>respondeai</strong> e{" "}
+          Curtido por <strong>{props.liked}</strong> e{" "}
           <strong>outras {props.number} pessoas</strong>
         </div>
       </div>
