@@ -14,8 +14,9 @@ export default function Stories() {
 
   return (
     <div class="stories">
-
-      {nicks.map((n) => (<Story nick={n} />))}
+      {nicks.map((n) => (
+        <Story nick={n} />
+      ))}
 
       <div class="setinha">
         <ion-icon name="chevron-forward-circle"></ion-icon>
