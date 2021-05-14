@@ -1,6 +1,6 @@
 export default function Search() {
   return (
-    <div class="pesquisa">
+    <div className="pesquisa">
       <input type="text" placeholder="Pesquisar" />
     </div>
   );

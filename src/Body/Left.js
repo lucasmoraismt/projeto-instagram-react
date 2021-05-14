@@ -3,7 +3,7 @@ import Posts from "./Posts";
 
 export default function Left() {
   return (
-    <div class="esquerda">
+    <div className="esquerda">
       <Stories />
 
       <Posts />

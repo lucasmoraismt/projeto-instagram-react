@@ -10,14 +10,14 @@ export default function Suggestions() {
   ];
 
   return (
-    <div class="sugestoes">
-      <div class="titulo">
+    <div className="sugestoes">
+      <div className="titulo">
         Sugestões para você
         <div>Ver tudo</div>
       </div>
 
-      {users.map((s) => (
-        <Suggestion nick={s.nick} status={s.status} />
+      {users.map((s, i) => (
+        <Suggestion nick={s.nick} status={s.status} key={i} />
       ))}
     </div>
   );

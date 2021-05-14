@@ -1,7 +1,7 @@
 export default function Liked(props) {
   return (
-    <div class="fundo">
-      <div class="acoes">
+    <div className="fundo">
+      <div className="acoes">
         <div>
           <ion-icon name="heart-outline"></ion-icon>
           <ion-icon name="chatbubble-outline"></ion-icon>
@@ -12,9 +12,9 @@ export default function Liked(props) {
         </div>
       </div>
 
-      <div class="curtidas">
+      <div className="curtidas">
         <img src={`assets/img/${props.liked}.svg`} alt={props.liked} />
-        <div class="texto">
+        <div className="texto">
           Curtido por <strong>{props.liked}</strong> e{" "}
           <strong>outras {props.number} pessoas</strong>
         </div>

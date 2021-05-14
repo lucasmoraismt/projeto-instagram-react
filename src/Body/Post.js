@@ -3,10 +3,10 @@ import Liked from "./Liked";
 
 export default function Post(props) {
   return (
-    <div class="post">
+    <div className="post">
       <Author nick={props.nick} />
 
-      <div class="conteudo">
+      <div className="conteudo">
         <img src={`assets/${props.img}.svg`} alt={props.alt} />
       </div>
 

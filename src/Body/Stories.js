@@ -13,12 +13,12 @@ export default function Stories() {
   ];
 
   return (
-    <div class="stories">
-      {nicks.map((n) => (
-        <Story nick={n} />
+    <div className="stories">
+      {nicks.map((n, i) => (
+        <Story nick={n} key={i} />
       ))}
 
-      <div class="setinha">
+      <div className="setinha">
         <ion-icon name="chevron-forward-circle"></ion-icon>
       </div>
     </div>
